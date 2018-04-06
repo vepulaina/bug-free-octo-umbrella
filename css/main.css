@@ -1,0 +1,28 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+#header_{
+    background: #d3d3d3;
+    display: grid;
+    grid-template-rows: auto 40px;
+}
+#header_ ul{
+    transform: translateY(20px); 
+}
+#header_ a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header_ ul li{
+    display: inline;
+    padding-right: 30px;
+    padding-left:  30px;
+}
+#header_ .header-logout-link{
+    float: right;
+}
