@@ -26,3 +26,31 @@
 #header_ .header-logout-link{
     float: right;
 }
+
+/*sidebar*/
+#aside_{
+    border-right: 1px solid #d3d3d3;
+    width: 100px;
+    height: 100vh;
+}
+#aside_ a{
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#aside_ ul li{
+    padding-top: 40px;
+}
+
+/*footer*/
+#footer_{
+    background: #d3d3d3;
+    height: 65px;
+}
+#footer_ p{
+    transform: translateY(22.5px); 
+    text-align: end;
+    padding-right: 10px;
+    font-size: 15px; 
+}
